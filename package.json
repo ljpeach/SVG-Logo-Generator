@@ -1,0 +1,26 @@
+{
+  "name": "svg-logo-generator",
+  "version": "1.0.0",
+  "description": "An SVG Logo Generator terminal application that applies Object Oriented Programming principles. Users can specify shape, color, and text used in their logo. The final image is 300x200 px. ",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ljpeach/SVG-Logo-Generator.git"
+  },
+  "author": "Liam Peachey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ljpeach/SVG-Logo-Generator/issues"
+  },
+  "homepage": "https://github.com/ljpeach/SVG-Logo-Generator#readme",
+  "dependencies": {
+    "inquirer": "^9.2.11",
+    "jest": "^29.7.0"
+  }
+}
