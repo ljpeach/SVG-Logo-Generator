@@ -8,6 +8,10 @@ const logoQuestions = [
         type: 'input',
         message: 'Enter your text (up to 3 chars)',
         name: 'text',
+        filter: (input) => new Promise((resolve, reject) => {
+            if (input.length > 3) { throw new Error("Text must not exceed 3 characters."); }
+            resolve(input);
+        })
     },
     {
         type: 'input',
