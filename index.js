@@ -47,6 +47,7 @@ function init() {
                     shapeObj = new Circle();
                     break;
                 default:
+                    throw new Error('Invalid Shape');
             }
             shapeObj.setColor(response.shapeColor);
             svgObj.setShape(shapeObj);
