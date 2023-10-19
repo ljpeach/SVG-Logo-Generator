@@ -17,4 +17,4 @@ An SVG Logo Generator terminal application that applies Object Oriented Programm
 
 ## Tutorial Video
 
-[Click here for tutorial video](https://youtu.be/)
+[Click here for tutorial video](https://youtu.be/A6GfuKlnp3Y)
